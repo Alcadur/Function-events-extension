@@ -1,5 +1,5 @@
 # Function-events-extension
-Extension for `Function` prototype to be able handle events.
+Extension for `Function` prototype to be able to handle events.
 
 ## Add listener for event
 ```javascript
