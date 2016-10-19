@@ -28,7 +28,7 @@ closeModalEventHandler.removeEventListener('closeModalWindow');
 ## Event object
 Each handler take one argument, `eventObject`.
 `eventObject` contain event name and custom arguments.
-```json
+```javascript
 {
   "name": "eventName",
   "args": [arg1, arg2, ..., argN]
