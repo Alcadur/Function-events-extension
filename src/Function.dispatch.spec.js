@@ -45,4 +45,42 @@ describe('dispatch', function(){
 
         expect(function(){ Function.dispatch(EVENT_NAME)}).not.toThrowError();
     });
+
+    it('should pass event name in eventObject', function(done){
+        function test(event){
+            expect(event.name).toEqual(EVENT_NAME);
+            done();
+        }
+
+        test.addEventListener(EVENT_NAME);
+
+        Function.dispatch(EVENT_NAME);
+    });
+
+    it('should pass empty args array when there will not be custom arguments', function(done) {
+       function test(event) {
+           expect(event.args).toBeDefined();
+           expect(event.args.length).toEqual(0);
+           done();
+       }
+
+       test.addEventListener(EVENT_NAME);
+
+        Function.dispatch(EVENT_NAME);
+    });
+
+    it('should pass custom arguments to eventObject', function(done){
+        var arg1 = 'argument1';
+        function test(event){
+
+            expect(event.args.length).toEqual(4);
+            expect(event.args[1]).toEqual(arg1);
+
+            done();
+        }
+
+        test.addEventListener(EVENT_NAME);
+
+        Function.dispatch(EVENT_NAME, 'arg0', arg1, 'arg2', 'arg3');
+    })
 });
