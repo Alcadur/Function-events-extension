@@ -1,5 +1,5 @@
 {
-  "name": "js-functions-events",
+  "name": "function-events-extension",
   "version": "0.0.1",
   "description": "Extension 'Function' prototype to be able to use evet patern",
   "main": "build/Function.events.min.js",
@@ -8,6 +8,10 @@
   },
   "author": "alcadur",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/Alcadur/function-events-extension"
+  },
   "devDependencies": {
     "jasmine-core": "^2.5.2",
     "karma": "^1.3.0",
