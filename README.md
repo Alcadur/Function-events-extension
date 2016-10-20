@@ -3,6 +3,8 @@
 # Function-events-extension
 Extension for `Function` prototype to be able to handle events.
 
+Example: https://plnkr.co/edit/vNpMhjjp9rxM8UN7majW
+
 ## Add listener for event
 ```javascript
 function closeModalEventHandler(event) {
