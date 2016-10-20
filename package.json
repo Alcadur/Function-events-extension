@@ -1,6 +1,6 @@
 {
   "name": "function-events-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extension 'Function' prototype to be able to use evet patern",
   "scripts": {
     "test": "karma start karma.conf.js"
