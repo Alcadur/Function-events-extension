@@ -5,6 +5,15 @@ Extension for `Function` prototype to be able to handle events.
 
 Example: https://plnkr.co/edit/vNpMhjjp9rxM8UN7majW
 
+## How to use
+You can use `npm i function-events-extension` to install it as dependencie and
+in youre main file `require('function-events-extension')`
+
+or
+
+download build version `build/Function.events.min.js` and 
+add it as normal script.
+
 ## Add listener for event
 ```javascript
 function closeModalEventHandler(event) {
