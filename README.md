@@ -11,7 +11,7 @@ in youre main file `require('function-events-extension')`
 
 or
 
-download build version `build/Function.events.min.js` and 
+download built version `build/Function.events.min.js` and 
 add it as normal script.
 
 ## Add listener for event
