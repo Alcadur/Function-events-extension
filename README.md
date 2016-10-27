@@ -1,4 +1,4 @@
-<img src="https://travis-ci.org/Alcadur/Function-events-extension.svg?branch=master">
+[![Build Status](https://travis-ci.org/Alcadur/function-events-extension.svg?branch=master)](https://travis-ci.org/Alcadur/function-events-extension)
 
 # Function-events-extension
 Extension for `Function` prototype to be able to handle events.
