@@ -1,6 +1,6 @@
 {
   "name": "function-events-extension",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extension 'Function' prototype to be able to use evet patern",
   "scripts": {
     "test": "karma start karma.conf.js"
@@ -8,7 +8,7 @@
   "author": "alcadur",
   "license": "MIT",
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "https://github.com/Alcadur/function-events-extension"
   },
   "keywords": [
